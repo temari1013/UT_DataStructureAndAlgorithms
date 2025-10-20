@@ -1,0 +1,11 @@
+*.zip
+*.pdf
+*.o
+.DS_Store
+report_1/*
+
+!/class1/*.c
+!/class1/*.h
+
+!/class2/*.c
+!/class2/*.h
