@@ -35,16 +35,10 @@ void delete_cell(Cell *p) {
 }
 
 void delete_cell_top(void) {
-    Cell *new_head = head -> next;
-    Cell *current_cell = head;
-    while (current_cell -> next != NULL){
-        current_cell = current_cell-> next;
-    }
-    current_cell -> next = NULL;
     Cell *old_head = head;
-    head = head->next;
+    head = head->next; 
     free(old_head);
-    return ;
+    return;
 }
 
 void display(void) {
