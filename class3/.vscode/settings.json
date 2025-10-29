@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "double_hashing.h": "c",
+        "timer.h": "c"
     }
 }

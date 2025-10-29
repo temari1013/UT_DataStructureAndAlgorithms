@@ -21,10 +21,20 @@ int main(void) {
     delete_hash(test_dict, 3);
     display(test_dict);
 
+    insert_hash (test_dict,3);
+    display(test_dict);
+
     delete_hash(test_dict, 11);
     display(test_dict);
 
+   /* insert_hash(test_dict, 4);
+    insert_hash(test_dict, 6);
+    insert_hash(test_dict, 7);
+    insert_hash(test_dict, 19);
+    insert_hash(test_dict, 154);
+    insert_hash(test_dict, 213); */
     delete_dict(test_dict);
+    
 
     return EXIT_SUCCESS;
 }

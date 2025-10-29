@@ -1,0 +1,49 @@
+--- 読み込み完了 ---
+総データ数: 10000
+e 1 2 3 12 e e 21 11 e
+Search 1 ...	1
+Search 2 ...	2
+Search 21 ...	7
+Search 5 ...	-1
+e 1 2 d 12 e e 21 11 e
+e 1 2 3 12 e e 21 11 e
+e 1 2 3 12 e e 21 d e
+個々の関数の動作チェック終テーブルサイズ (B): 10007
+計測繰り返し回数 (NUM_TRY): 10000
+占有率α, 登録データ数, 探索平均時間[sec]
+ALPHA,NUM_INSERTED,AVG_SEARCH_TIME_SEC
+Timer reset
+Time precision:	0.000001000 sec
+0.0,0,0.0000000000000
+Timer reset
+Time precision:	0.000001000 sec
+0.1,1001,0.0000000190761
+Timer reset
+Time precision:	0.000001000 sec
+0.2,2002,0.0000000234003
+Timer reset
+Time precision:	0.000001000 sec
+0.3,3003,0.0000000274941
+Timer reset
+Time precision:	0.000001000 sec
+0.4,4003,0.0000000332867
+Timer reset
+Time precision:	0.000001000 sec
+0.5,5004,0.0000000452754
+Timer reset
+Time precision:	0.000001000 sec
+0.6,6005,0.0000000458045
+Timer reset
+Time precision:	0.000001000 sec
+0.7,7005,0.0000000523319
+Timer reset
+Time precision:	0.000001000 sec
+0.8,8006,0.0000000591449
+Timer reset
+Time precision:	0.000001000 sec
+0.9,9007,0.0000000673832
+Timer reset
+Time precision:	0.000001000 sec
+1.0,10000,0.0000001161245
+
+--- 処理終了 ---
